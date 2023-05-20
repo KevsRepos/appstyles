@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css" />
+        <link rel="stylesheet" href="theme.css" />
+        <link rel="stylesheet" href="./css/app-action-sheet/md-action-sheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+</html>
+
+<button id="open">Open</button>
+
+<dialog class="app-action-sheet">
+    <p>Action</p>
+    <button>Hallo</button>
+    <button>Hallo</button>
+    <button>Hallo</button>
+    <button class="app-action-sheet-cancel">Cancel</button>
+</dialog>
+
+<script>
+    document.querySelector('dialog').showModal()
+    document.querySelector('button#open').addEventListener('click', () => {
+        document.querySelector('dialog').showModal()
+    })
+
+    document.querySelector('dialog button').addEventListener('click', () => {
+        console.log('here');
+        document.querySelector('dialog').close()
+    })
+</script>
