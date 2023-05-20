@@ -1,3 +1,5 @@
+@import "css/theme.scss";
+
 dialog.app-action-sheet {
     min-width: calc(100vw - 1rem);
     border: none;
@@ -13,7 +15,7 @@ dialog.app-action-sheet button:nth-last-child(2) {
 dialog.app-action-sheet::backdrop {
     position: fixed;
     height: 100vh;
-    background: rgb(0, 0, 0, 0.4);
+    background: $ios-backdrop-color;
     box-sizing: border-box;
 }
 dialog.app-action-sheet > p {
