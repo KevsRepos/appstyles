@@ -13,7 +13,7 @@ let platform;
 if(md) platform = "md"
 if(ios) platform = "ios"
 
-const walkDir = "css";
+const walkDir = "src";
 
 const imports = "compiled/imports.scss"
 

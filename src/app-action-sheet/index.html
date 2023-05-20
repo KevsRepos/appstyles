@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="compiled/compiled.css" />
+
+<button id="open">Open</button>
+
+<dialog class="app-action-sheet">
+    <p>Actions</p>
+    <button>Option 1</button>
+    <button>Option 2</button>
+    <button>Option 3</button>
+    <button class="app-action-sheet-cancel">Cancel</button>
+</dialog>
+
+<script>
+    document.querySelector('dialog').showModal()
+    document.querySelector('button#open').addEventListener('click', () => {
+        document.querySelector('dialog').showModal()
+    })
+
+    document.querySelector('dialog button').addEventListener('click', () => {
+        console.log('here');
+        document.querySelector('dialog').close()
+    })
+</script>
