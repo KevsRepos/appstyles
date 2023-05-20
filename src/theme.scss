@@ -10,6 +10,9 @@ $light-gray: #7b7b7b;
 
 $primary: #3880ff;
 $white: #fff;
+$black: #000;
+$dark-gray-blue: #2d4665;
+$gray: #687584;
 
 /* border */
 $ios-border: 1px $ios-border-gray solid;
@@ -21,3 +24,7 @@ $md-default-radius: 4px;
 
 /* font-size */
 $small-font: .8rem;
+
+/* breadcrumb */
+$ios-breadcrumb-divider: "›";
+$md-breadcrumb-divider: "/";

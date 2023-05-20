@@ -1,0 +1,27 @@
+@import "theme.scss";
+
+nav.app-breadcrumb {
+    a, button {
+        padding: .3rem 0 .7rem 0;
+        border: none;
+        background-color: transparent;
+
+        &:not(:last-child)::after {
+            content: $md-breadcrumb-divider;
+            margin: .5rem .8rem 0 .8rem;
+            padding-top: .2rem;
+        }
+
+        &:not(:last-child) {
+            color: $gray;
+
+            &:hover {
+                color: $black;
+            }
+        }
+
+        &:last-child {
+            font-weight: bold;
+        }
+    }
+}
