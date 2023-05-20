@@ -1,30 +1,43 @@
-@import "css/theme.scss";
+@import "theme.scss";
 
 dialog.app-action-sheet {
     min-width: 100vw;
     border: none;
     margin: auto 0 0 0;
     padding: 0 0 1.4rem 0;
-    animation: dialogAnimation 0.3s ease-in-out;
+
+    &::backdrop {
+        position: fixed;
+        height: 100vh;
+        background: $md-backdrop-color;
+        box-sizing: border-box;
+    }
+
+    > p {
+        color: var(--light-gray);
+        padding: 1.3rem 1rem 1.1rem 1rem;
+        margin: 0;
+    }
+
+    > button {
+        width: 100%;
+        background: transparent;
+        border: none;
+        padding: 1.3rem 1rem 1.1rem 1rem;
+        text-align: start;
+    }
+
+    > button:hover {
+        background: rgb(0, 0, 0, .03);
+    }
 }
-dialog.app-action-sheet::backdrop {
-    position: fixed;
-    height: 100vh;
-    background: $md-backdrop-color;
-    box-sizing: border-box;
-}
-dialog.app-action-sheet > p {
-    color: var(--light-gray);
-    padding: 1.3rem 1rem 1.1rem 1rem;
-    margin: 0;
-}
-dialog.app-action-sheet > button {
-    width: 100%;
-    background: transparent;
-    border: none;
-    padding: 1.3rem 1rem 1.1rem 1rem;
-    text-align: start;
-}
-dialog.app-action-sheet > button:hover {
-    background: rgb(0, 0, 0, .03);
+
+@media screen and (min-width: 500px) {
+    dialog.app-action-sheet {
+        min-width: 500px;
+        width: 500px;
+        position: relative;
+        left: 50vw;
+        transform: translateX(-50%);
+    }
 }

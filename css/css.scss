@@ -3,6 +3,13 @@
     font-family: "Roboto", "Helvetica Neue", sans-serif;
     font-size: 1rem;
 }
+button, a {
+    cursor: pointer;
+}
+button:focus, button:active {
+    border: none;
+    outline: none;
+}
 body {
     margin: 0;
 }
