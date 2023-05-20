@@ -1,0 +1,43 @@
+dialog.app-alert {
+    min-width: 250px;
+    border: none;
+    padding: 0;
+    border-radius: $ios-default-radius;
+
+    &::backdrop {
+        background: $ios-backdrop-color;
+    }
+    
+    h2 {
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 1.2rem 1.3rem 0 1.3rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: .9rem;
+        font-weight: normal;
+        margin: .3rem 0 .4rem 0;
+        text-align: center;
+        color: $light-gray
+    }
+
+    div {
+        padding: 0 1rem 1.2rem 1rem;
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        padding: .8rem;
+        width: 100%;
+        color: $primary;
+        font-weight: bold;
+        border-top: $ios-border;
+        font-size: .9rem;
+    }
+}

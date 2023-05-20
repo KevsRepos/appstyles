@@ -4,11 +4,14 @@ $ios-backdrop-color: rgb(0, 0, 0, .4);
 
 $md-light-gray: #f4f5f8;
 
-$ios-border-gray: #efefef;
+$ios-border-gray: #c7c7c7;
 
 $light-gray: #7b7b7b;
 
 $primary: #3880ff;
+
+/* border */
+$ios-border: 1px $ios-border-gray solid;
 
 /* border-radius */
 $ios-default-radius: 13px;
