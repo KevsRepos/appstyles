@@ -38,3 +38,5 @@ const putFiles = async (directory) => {
 }
 
 putFiles(walkDir)
+
+fs.appendFile(imports, `@import "css.scss";\n`)
