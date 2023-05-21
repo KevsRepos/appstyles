@@ -1,0 +1,54 @@
+@import "theme.scss";
+
+div.app-checkbox {
+    input {
+        display: none;
+
+        &:checked + label.app-checkbox-before::before {
+            background-color: $primary;
+            border: 2px $primary solid;
+            content: "\eed6";
+        }
+
+        &:checked + label.app-checkbox-after::after {
+            background-color: $primary;
+            border: 2px $primary solid;
+            content: "\eed6";
+        }
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+
+        &.app-checkbox-before::before {
+            content: "";
+            color: $white;
+            font-family: 'IcoFont' !important;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: .8rem;
+            width: .8rem;
+            border-radius: $md-default-radius;
+            border: 2px $gray solid;
+            margin-right: 1rem;
+        }
+
+        &.app-checkbox-after::after {
+            content: "";
+            color: $white;
+            font-family: 'IcoFont' !important;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: .8rem;
+            width: .8rem;
+            border-radius: $md-default-radius;
+            border: 2px $gray solid;
+            margin-left: 1rem;
+        }
+    }
+}
