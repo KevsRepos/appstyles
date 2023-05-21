@@ -7,6 +7,7 @@ $md-light-gray: #f4f5f8;
 $ios-border-gray: #c7c7c7;
 
 $light-gray: #7b7b7b;
+$gray: #687584;
 
 $primary: #3880ff;
 $primary-hover: #4c8dff;
@@ -15,24 +16,30 @@ $primary-active: #3171e0;
 $white: #fff;
 $black: #000;
 $dark-gray-blue: #2d4665;
-$gray: #687584;
 
 /* border */
 $ios-border: 1px $ios-border-gray solid;
 
 /* border-radius */
 $ios-default-radius: 13px;
+$ios-small-radius: 8px;
+
 $md-default-radius: 4px;
 
 /* font-size */
 $minor-font: .9rem;
 $small-font: .8rem;
+$l-font: 1.2rem;
+$xl-font: 1.8rem;
 
 /* breadcrumb */
 $ios-breadcrumb-divider: "›";
 $md-breadcrumb-divider: "/";
 
 /* shadow */
+$md-sm-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
 $md-normal-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 $md-big-shadow:   0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
 $md-xl-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+
+$ios-normal-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;

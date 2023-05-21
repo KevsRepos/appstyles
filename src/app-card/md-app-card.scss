@@ -1,0 +1,60 @@
+@import "theme.scss";
+
+div.app-card {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: $md-sm-shadow;
+    max-width: 380px;
+    border-radius: $md-default-radius;
+    background-color: $white;
+    position: relative;
+
+    img {
+        margin: -1rem;
+        margin-bottom: 1rem;
+        width: max-content;
+        width: -moz-available;
+        border-radius: $ios-small-radius $ios-small-radius 0 0;
+    }
+
+    div.app-card-header {
+        h2 {
+            font-size: $l-font;
+            margin: 0;
+        }
+
+        h5 {
+            font-size: $minor-font;
+            color: $gray;
+            font-weight: bold;
+            margin: .5rem 0 .2rem 0;
+        }
+    }
+
+    p {
+        font-size: $minor-font;
+        margin: 0;
+        padding-top: 1rem;
+        color: $light-gray;
+    }
+
+    div.app-card-btns {
+        margin-top: 1.4rem;
+
+        button {
+            border: none;
+            background: transparent;
+            color: $primary;
+            padding: .5rem;
+            padding-right: 1rem;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:hover {
+                color: $primary-hover;
+            }
+        }
+    }
+}
