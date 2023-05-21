@@ -6,6 +6,7 @@
 <font-face font-family="IcoFont" font-weight="400" font-style="Regular" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
 <glyph glyph-name="check-alt" horiz-adv-x="1000" unicode="&#xeed6;" d="M415 134c-8-8-17-11-27-11-9 0-18 3-26 11l-162 162 52 53 136-137 363 366 49-53-385-391z" />
+<glyph glyph-name="close-line" horiz-adv-x="1000" unicode="&#xeee1;" d="M763 650l37-37-262-263 262-262-37-38-263 263-262-263-38 38 263 262-263 263 38 37 262-262z" />
 </font>
 </defs>
 </svg>
