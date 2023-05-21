@@ -7,6 +7,7 @@ $md-light-gray: #f4f5f8;
 $ios-border-gray: #c7c7c7;
 
 $light-gray: #7b7b7b;
+$chip-background: #e0e0e0;
 $gray: #687584;
 
 $primary: #3880ff;
@@ -27,6 +28,8 @@ $ios-small-radius: 8px;
 
 $md-default-radius: 4px;
 
+$radius-full: 99px;
+
 /* font-size */
 $minor-font: .9rem;
 $small-font: .8rem;
@@ -44,3 +47,6 @@ $md-big-shadow:   0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0
 $md-xl-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
 
 $ios-normal-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+
+/* icons */
+$icon-close-line: "\eee1";

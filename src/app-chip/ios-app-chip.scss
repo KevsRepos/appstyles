@@ -1,0 +1,33 @@
+@import "theme.scss";
+
+div.app-chip {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    background-color: $chip-background;
+    border-radius: $radius-full;
+
+    img {
+        height: 1.8rem;
+        width: 1.8rem;
+        border-radius: 99px;
+    }
+
+    span {
+        font-size: $minor-font;
+        padding: .4rem .8rem;
+        text-align: center;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        // margin-right: .5rem;
+
+        &::before {
+            font-family: 'IcoFont' !important;
+            content: $icon-close-line;
+        }
+    }
+}
