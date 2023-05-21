@@ -12,6 +12,15 @@
          url('../fonts/roboto-v30-latin/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+ 
+    font-family: "IcoFont";
+    font-weight: normal;
+    font-style: "Regular";
+    src: url("../fonts/icons/icofont.woff2") format("woff2"),
+    url("../fonts/icons/icofont.woff") format("woff");
+}
+
 * {
     box-sizing: border-box;
     font-family: "Roboto", "Helvetica Neue", sans-serif;
