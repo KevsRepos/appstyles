@@ -1,0 +1,22 @@
+@import "theme.scss";
+
+button.app-button {
+    background-color: $primary;
+    color: $white;
+    border: none;
+    border-radius: $md-default-radius;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $minor-font;
+    box-shadow: $md-normal-shadow;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), background-color 15ms linear, color 15ms linear;
+
+    &:hover {
+        background-color: $primary-hover;
+    }
+
+    &:tap {
+        box-shadow: $md-big-shadow;
+    }
+}
